@@ -2,6 +2,7 @@
 TicTacToe Projekt V320
 
 Sprintziel 14.03.2023
+
 Wir wollen Azure DevOps und GitHub eingerichtet haben.
 
 Retrospektive
