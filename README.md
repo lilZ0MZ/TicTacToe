@@ -19,5 +19,8 @@ Wir wollen funktionelle Methoden in unserem TicTacToe-Spiel einbauen.
 Retrospektive
 
 Wir haben in unserem zweiten Sprint weniger geleistet als im ersten Sprint. Trotzdem haben wir eine gute Ordnerstruktur in Github errichtet, Unsere Dokumentation angefangen zu schreiben und wir konnten ein paar Methoden in unserem Spiel eingebaut.
+Als Gruppe haben wir das Gefühl wir hätten konzentrierter arbeiten müssen. Dies hat sich in unserer geleisteten Arbeit wiederspiegelt.
 
-Als Gruppe haben wir das Gefühl wir hätten konzentrierter arbeiten müssen. Dies hat sich in unserer geleisteten Arbeit wiederspiegelt. Wir haben zwar schon Methoden entwickelt, um Spielerzüge zu erfassen und die Spielerabfolge zu wechseln, aber das alles nur in der Main Methode. 
+Sprint-Review
+
+Wir haben unsere Dokumentation bereits angefangen zu schreiben. Dann konnten wir eine Methode entwickelt, um Spielerzüge zu ermitteln und eine Methode um Spielerabfolge zu wechseln, aber wir haben dies in der Main Methode gemacht, was nicht gut ist.
