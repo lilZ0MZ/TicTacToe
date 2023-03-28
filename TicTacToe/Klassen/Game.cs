@@ -35,6 +35,16 @@ namespace TicTacToe
             DrawWinner();
             HandleInput();
         }
+        
+        public void UndoMove()
+        {
+            if (mementoStack.Count > 0)
+            {
+                Memento memento = mementoStack.Pop();
+                board.BoardState = memento.BoardState;
+                currentPlayer = currentPlayer == 'X' ? 'O' : 'X';
+            }
+        }
 
         public void HandleInput()
         {
