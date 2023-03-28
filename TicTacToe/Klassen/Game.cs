@@ -8,13 +8,15 @@ namespace TicTacToe
 {
     public class Game
     {
-        private Board board;
+       private Board board;
         public char currentPlayer;
+        private Stack<Memento> mementoStack;
 
         public Game()
         {
             board = new Board();
             currentPlayer = 'X';
+            mementoStack = new Stack<Memento>();
         }
 
         public void Play()
@@ -24,7 +26,9 @@ namespace TicTacToe
                 board.Draw();
                 try
                 {
+                    Memento memento = new Memento(board.BoardState);
                     MakeMove();
+                    mementoStack.Push(memento);
                 }
                 catch (InvalidOperationException e)
                 {
@@ -34,6 +38,7 @@ namespace TicTacToe
             board.Draw();
             DrawWinner();
             HandleInput();
+        }
         }
         
         public void UndoMove()
