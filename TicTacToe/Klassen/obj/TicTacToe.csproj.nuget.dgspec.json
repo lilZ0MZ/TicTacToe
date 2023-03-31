@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\V320\\TicTacToe-main\\TicTacToe\\Klassen\\TicTacToe.csproj": {}
+    "C:\\Users\\Din Sabic\\OneDrive - Kt. SG BLD\\2_IMS\\Informatik\\V320\\TicTacToe-main\\TicTacToe\\Klassen\\TicTacToe.csproj": {}
   },
   "projects": {
-    "C:\\V320\\TicTacToe-main\\TicTacToe\\Klassen\\TicTacToe.csproj": {
+    "C:\\Users\\Din Sabic\\OneDrive - Kt. SG BLD\\2_IMS\\Informatik\\V320\\TicTacToe-main\\TicTacToe\\Klassen\\TicTacToe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\V320\\TicTacToe-main\\TicTacToe\\Klassen\\TicTacToe.csproj",
+        "projectUniqueName": "C:\\Users\\Din Sabic\\OneDrive - Kt. SG BLD\\2_IMS\\Informatik\\V320\\TicTacToe-main\\TicTacToe\\Klassen\\TicTacToe.csproj",
         "projectName": "TicTacToe",
-        "projectPath": "C:\\V320\\TicTacToe-main\\TicTacToe\\Klassen\\TicTacToe.csproj",
-        "packagesPath": "C:\\Users\\tntee\\.nuget\\packages\\",
-        "outputPath": "C:\\V320\\TicTacToe-main\\TicTacToe\\Klassen\\obj\\",
+        "projectPath": "C:\\Users\\Din Sabic\\OneDrive - Kt. SG BLD\\2_IMS\\Informatik\\V320\\TicTacToe-main\\TicTacToe\\Klassen\\TicTacToe.csproj",
+        "packagesPath": "C:\\Users\\Din Sabic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Din Sabic\\OneDrive - Kt. SG BLD\\2_IMS\\Informatik\\V320\\TicTacToe-main\\TicTacToe\\Klassen\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tntee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Din Sabic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

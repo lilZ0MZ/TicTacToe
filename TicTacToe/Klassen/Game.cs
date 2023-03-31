@@ -8,15 +8,13 @@ namespace TicTacToe
 {
     public class Game
     {
-       private Board board;
+        private Board board;
         public char currentPlayer;
-        private Stack<Memento> mementoStack;
 
         public Game()
         {
             board = new Board();
             currentPlayer = 'X';
-            mementoStack = new Stack<Memento>();
         }
 
         public void Play()
@@ -26,9 +24,7 @@ namespace TicTacToe
                 board.Draw();
                 try
                 {
-                    Memento memento = new Memento(board.BoardState);
                     MakeMove();
-                    mementoStack.Push(memento);
                 }
                 catch (InvalidOperationException e)
                 {
@@ -38,17 +34,6 @@ namespace TicTacToe
             board.Draw();
             DrawWinner();
             HandleInput();
-        }
-        }
-        
-        public void UndoMove()
-        {
-            if (mementoStack.Count > 0)
-            {
-                Memento memento = mementoStack.Pop();
-                board.BoardState = memento.BoardState;
-                currentPlayer = currentPlayer == 'X' ? 'O' : 'X';
-            }
         }
 
         public void HandleInput()
@@ -61,7 +46,13 @@ namespace TicTacToe
                 if (input == "new")
                 {
                     board = new Board();
-                    currentPlayer = 'X';
+                    if (currentPlayer == 'X')
+                    {
+                        currentPlayer = 'O';
+                    } else
+                    {
+                        currentPlayer = 'X';
+                    }
                     Play();
                 }
                 else if (input == "end")
