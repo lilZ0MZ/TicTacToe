@@ -220,7 +220,7 @@ Die Diagramme konnten wir für unsere Planun wunderbar einsetzen. Die halfen uns
 
 ###### Klassendiagramm
 
-![Klassendiagramm] (Klassendiagramm.png)
+![Klassendiagramm] (./Klassendiagramm.png)
 
 
 ###### Sequenzdiagramm
