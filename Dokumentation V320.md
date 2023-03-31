@@ -1,26 +1,69 @@
-# Dokumentation TicTacToe Projekt V320
 
+
+# Dokumentation TicTacToe Projekt V320
 ###### Livio Piccolotto, Thi Nguyen, Din Sabic
 
-![titel](titel.png)
 
-31.03.2023 Din, Thi, Livio
+
+![[Pasted image 20230314153250.png]]
+
+
+
+
+
+
+
+31.03.2023                                                                                                                         Din, Thi, Livio
 
 ## Inhaltsverzeichnis
 
-- [Einleitung](#Einleitung)
-- [Hauptteil](#Hauptteil)
-- [Sprints](#Sprints)
-- [Testing](#Testing)
-- [Verlinkung](#Verlinkung)
-- [Diagramme](#Diagramme)
-- [Quellverzeichniss](#Quellverzeichniss)
+### [Einleitung](#Einleitung)
+### [Hauptteil](#Hauptteil)
+##### [Sprints](#Sprints)
+##### [Testing](#Testing)
+##### [Verlinkung](#Verlinkung)
+##### [Diagramme](#Diagramme)
+### [Quellverzeichniss](#Quellverzeichniss)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Einleitung
 
 Im Unterricht des Vertiefungsmoduls 320 haben wir einen Projektauftrag erhalten. Wir müssen ein TicTacToe-Spiel in C# programmieren. Das Ganze wurde in diesem Markdown-Dokument dokumentiert und mithilfe einer agilen Entwicklungsmethode in Azure DevOps entworfen und geplant. Das Projekt wurde in Teamarbeit von Thi Nguyen, Din Sabic und Livio Piccolott fertiggestellt.
 
-Die Anforderungen für das Projekt waren:
+Die Anforderungen für das Projekt waren: 
 
 - Zwei Spieler spielen auf einem 3x3 Feld
 - Abwechselnde Eingabe des Kommandos
@@ -28,10 +71,10 @@ Die Anforderungen für das Projekt waren:
 - Spiel beenden = "end"
 - Spielzug rückgängig machen = "undo"
 
+
 Erwartete Resultate:
 
 Link zu Ihrem Azure DevOps-Projekt, Lehrperson in Projektteam aufnehmen. Es wird der komplette Projektablauf bewertet – nicht nur das Resultat.
-
 - Protokoll zu Sprint-Review und Retrospektive (Daily-Scrum optional)
 - UseCase-/System-Diagramm
 - Klassendiagramm
@@ -41,7 +84,9 @@ Link zu Ihrem Azure DevOps-Projekt, Lehrperson in Projektteam aufnehmen. Es wird
 - Programm dokumentiert mit C# XML-Dokumentation
 - Unittests, welche die komplette Logik abdecken
 
+
 ## Hauptteil
+
 
 ### Sprints
 
@@ -58,6 +103,7 @@ Wir haben es geschafft, in unserem ersten Sprint die User Stories zu schreiben s
 Retrospektive:
 
 Wir denken, dass wir einiges besser hätten machen können. Das Hinzufügen von mehreren Funktionen wäre sinnvoller gewesen. Das nächste Mal werden wir uns auch besser mit den User Stories beschäftigen, da diese eine sehr wichtige Rolle im ganzen Prozess haben und zum Erfolg beitragen.
+
 
 ###### Sprint 2:
 
@@ -87,20 +133,26 @@ Retrospektive:
 
 Wir denken, dass wir in diesem Sprint gut vorangekommen sind. Obwohl wir nicht alles geschafft haben und große Probleme mit dem Memento Pattern hatten, konnten wir uns in der Gruppe klar verständigen, beschäftigen und zusammenarbeiten. Dies hat das Projekt produktiv vorangetrieben. Wir sind der Meinung, dass wir mehr Zeit in das Memento Pattern investieren sollten.
 
+
+
 ### Testing
 
-###### Einführung
+###### Einführung 
+
+
 
 Das Ziel des Testings besteht darin, sicherzustellen, dass das TicTacToe-Spiel ordnungsgemäß funktioniert und alle Anforderungen erfüllt sind. Das Testkonzept umfasst die Testplanung, Teststrategie, Testmethoden und die Testdurchführung.
+
 
 ###### Testziele
 
 Die folgenden Ziele hat das Testkonzept:
 
-- Sicherstellen, dass alles ordnungsgemäß funktioniert
-- Überprüfen, ob das Spiel den Anforderungen entspricht
-- Identifizieren und Beheben von Fehlern und Problemen
-- Überprüfen, ob die Funktionalität des Spiels gewährleistet ist.
+-   Sicherstellen, dass alles ordnungsgemäß funktioniert
+-   Überprüfen, ob das Spiel den Anforderungen entspricht
+-   Identifizieren und Beheben von Fehlern und Problemen
+-   Überprüfen, ob die Funktionalität des Spiels gewährleistet ist.
+
 
 ###### Testplanung
 
@@ -108,72 +160,91 @@ Testobjekt:
 
 Das Testobjekt ist das TicTacToe spiel.
 
+
 ###### Testumgebung
 
 Die Testumgebung ist die Entwicklungsplattform Microsoft Visual Studio 2022
 
-Testanforderungen:
-Es muss den Folgenden Anforderungen standhalten:
+Testanforderungen: 
+ Es muss den Folgenden Anforderungen standhalten:
 
-- Das Spiel muss eine 3x3-Spielfeldmatrix enthalten.
-- Das Spiel muss in der Lage sein, die Spielzüge von zwei Spielern aufzuzeichnen.
-- Das Spiel muss in der Lage sein, zu überprüfen, ob ein Spieler gewonnen hat.
-- Das Spiel muss in der Lage sein, zu überprüfen, ob das Spiel unentschieden endet.
-- Das Spiel muss in der Lage sein, Fehlermeldungen anzuzeigen, wenn ein Spieler einen ungültigen Zug ausführt oder ein bereits besetztes Feld wählt.
+-   Das Spiel muss eine 3x3-Spielfeldmatrix enthalten.
+-   Das Spiel muss in der Lage sein, die Spielzüge von zwei Spielern aufzuzeichnen.
+-   Das Spiel muss in der Lage sein, zu überprüfen, ob ein Spieler gewonnen hat.
+-   Das Spiel muss in der Lage sein, zu überprüfen, ob das Spiel unentschieden endet.
+-   Das Spiel muss in der Lage sein, Fehlermeldungen anzuzeigen, wenn ein Spieler einen ungültigen Zug ausführt oder ein bereits besetztes Feld wählt.
+
 
 ###### Teststrategie
 
 Korrigierter Text: Die Anforderungen werden mit den folgenden Teststrategien überprüft:
 
-- Unittests: Diese dienen dazu, die korrekte Funktionalität einzelner Code-Teile zu überprüfen.
-- Integrationstests: Diese Tests überprüfen, ob die einzelnen Komponenten des Spiels miteinander kommunizieren und funktionieren.
-- Funktionstests: Diese Tests überprüfen, ob das Spiel den Anforderungen entspricht und ordnungsgemäß funktioniert.
+-   Unittests: Diese dienen dazu, die korrekte Funktionalität einzelner Code-Teile zu überprüfen.
+-   Integrationstests: Diese Tests überprüfen, ob die einzelnen Komponenten des Spiels miteinander kommunizieren und funktionieren.
+-   Funktionstests: Diese Tests überprüfen, ob das Spiel den Anforderungen entspricht und ordnungsgemäß funktioniert.
+
 
 ###### Testmethoden
 
 Unittests:
 
-- InitializeBoardTest: Überprüft, ob das Spielbrett korrekt aufgebaut wurde.
-- MakeMoveTest: Überprüft, ob die Spielzüge korrekt aufgezeichnet und ausgeführt wurden.
-- HasWinnerTest: Überprüft, ob das Spiel den Gewinner korrekt erkennt.
-- IsGameOverTest: Überprüft, ob das Spiel erkennt, wenn es zu einem Unentschieden kommt.
+-   InitializeBoardTest: Überprüft, ob das Spielbrett korrekt aufgebaut wurde.
+-   MakeMoveTest: Überprüft, ob die Spielzüge korrekt aufgezeichnet und ausgeführt wurden.
+-   HasWinnerTest: Überprüft, ob das Spiel den Gewinner korrekt erkennt.
+-   IsGameOverTest: Überprüft, ob das Spiel erkennt, wenn es zu einem Unentschieden kommt.
 
 Integrationstests:
 
-- CheckIntegrationTest: Überprüft, ob die verschiedenen Komponenten des Spiels korrekt miteinander kommunizieren.
+-   CheckIntegrationTest: Überprüft, ob die verschiedenen Komponenten des Spiels korrekt miteinander kommunizieren.
 
 Functional Test:
 
 - GameFunctionalityTest: Überprüft, ob das Spiel den Anforderungen entspricht und ordnungsgemäß funktioniert.
 
+
 ###### Testdurchführung
 
 Die Durchführung erfolgt durch den Entwickler. Alle Test's haben funktioniert und ein erfolgreiches Ergebniss gebracht.
+
 
 ### Verlinkung
 
 GitHub: https://github.com/lilZ0MZ/TicTacToe
 Azure DevOps: https://dev.azure.com/ThilNguyen/TicTacToe
 
+
 ### Diagramme
 
-Die Diagramme konnten wir für unsere Planun wunderbar einsetzen. Die halfen uns dabei die verschiedenen Klassen welche es für das Projekt braucht herauszufinden. Zudem konnte man so die verschiedenen Relationen herausfinden.
+
+Die Diagramme konnten wir für unsere Planun wunderbar einsetzen. Die halfen uns dabei die verschiedenen Klassen welche es für das Projekt braucht herauszufinden. Zudem konnte man so die verschiedenen Relationen herausfinden. 
 
 ###### Klassendiagramm
 
-![UseCase-Diagramm](.UseCase-Diagramm)
+![Klassendiagramm] (Klassendiagramm.png)
 
-![[Klassendiagramm.png]]
 
 ###### Sequenzdiagramm
 
 ![[Sequenzdiagram_TicTacToe.png]]
 
 ###### UseCase Diagramm
-
 ![[UseCase-Diagramm.png]]
+
+
 
 ## Quellverzeichniss
 
+
 - _Microsoft_. (2023). Von https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.microsoft.com%2Fde-de%2Fp%2Ftic-tac-toe-master%2F9n7tjk3jkb0v&psig=AOvVaw2CkybvskulwUe9UQsoCV6-&ust=1680376256617000&source=images&cd=vfe&ved=0CBEQjhxqFwoTCKjJz8Dvhv4CFQAAAAAdAAAAABAE abgerufen
 - Eigene Aufnahmen
+
+
+
+
+
+
+
+
+
+
+
